@@ -1,0 +1,25 @@
+{
+  "name": "awsm-comments",
+  "version": "1.0.0",
+  "description": "An AWS Module that implements a commenting system based on the URL of the article.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine"
+  },
+  "keywords": [
+    "AWS",
+    "JAWS",
+    "AWSM",
+    "comments"
+  ],
+  "author": "Donley R. P'Simer",
+  "license": "MIT",
+  "dependencies": {
+    "base64-url": "^1.2.1",
+    "jaws-core-js": "0.0.2",
+    "moment": "^2.10.6"
+  },
+  "devDependencies": {
+    "jasmine": "^2.3.2"
+  }
+}

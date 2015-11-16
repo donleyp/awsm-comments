@@ -1,7 +1,11 @@
 /**
  * AWS Module: Action: Modularized Code
  */
+var Promise = require("bluebird");
+var AWS = require("aws-sdk");
+var dynamodb = new AWS.DynamoDB();
 var list = require("awsm-comments").list;
+Promise.promisifyAll(Object.getPrototypeOf(dynamodb));
 
 // Export For Lambda Handler
 module.exports.run = function(event, context, cb) {
@@ -10,5 +14,5 @@ module.exports.run = function(event, context, cb) {
 
 // Your Code
 var action = function(request) {
-    return list(request.articleId, request.last, request.count);
+    return list(dynamodb, request.articleId, request.last, request.count);
 };

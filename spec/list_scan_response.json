@@ -1,0 +1,43 @@
+{
+    "Count": 3, 
+    "Items": [
+        {
+            "comment": {
+                "S": "First!"
+            }, 
+            "articleId": {
+                "S": "aHR0cDovL2Rldi5wc2ltZXIubmV0L2dlbmVyYWwvMjAxNS8wNS8xNy9teS1leHBlcmllbmNlLWF0LWFtYXpvbi5odG1s"
+            }, 
+            "dateTimePosted": {
+                "S": "2015-11-09T12:35:44.345Z"
+            }, 
+            "posterId": {
+                "S": "donleyp"
+            }
+        }, 
+        {
+            "comment": {
+                "S": "This is a test"
+            }, 
+            "articleId": {
+                "S": "aHR0cDovL2Rldi5wc2ltZXIubmV0L2dlbmVyYWwvMjAxNS8wNS8xNy9teS1leHBlcmllbmNlLWF0LWFtYXpvbi5odG1s"
+            }, 
+            "dateTimePosted": {
+                "S": "2015-11-10T12:35:44.345Z"
+            }, 
+            "posterId": {
+                "S": "33edkfiomvoweonvmoeow"
+            }
+        }, 
+        {
+            "dateTimePosted": {
+                "S": "Z"
+            }, 
+            "articleId": {
+                "S": "aHR0cDovL2Rldi5wc2ltZXIubmV0L2dlbmVyYWwvMjAxNS8wNS8xNy9teS1leHBlcmllbmNlLWF0LWFtYXpvbi5odG1s"
+            }
+        }
+    ], 
+    "ScannedCount": 3, 
+    "ConsumedCapacity": null
+}
